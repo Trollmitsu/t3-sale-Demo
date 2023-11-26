@@ -1,161 +1,350 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>T3 Sales - Telemarketing Company</title>
-  <style>
-    /* CSS styles go here */
-    * {
-      box-sizing: border-box;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T3 Sale</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet"> <!-- https://fonts.google.com/specimen/Kumbh+Sans -->
+      <!-- https://fontawesome.com/-->  
+    <link rel="stylesheet" href="css/magnific-popup.css">       <!-- https://dimsemenov.com/plugins/magnific-popup/ -->
+    <link rel="stylesheet" href="css/tooplate-vertex.css">
+<!--
 
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-    
-    header {
-      background-color: #333;
-      color: #fff;
-      padding: 20px;
-      text-align: center;
-    }
+Tooplate 2124 Vertex
 
-    nav ul {
-      list-style-type: none;
-      padding: 0;
-      margin: 0;
-      display: flex;
-      justify-content: center;
-    }
+https://www.tooplate.com/view/2124-vertex
 
-    .nav-link {
-      display: block;
-      text-decoration: none;
-      padding: 10px 20px;
-      margin: 0 10px;
-      color: #fff;
-      border-radius: 5px;
-      transition: background-color 0.3s ease;
-    }
+-->
 
-    .nav-link:hover {
-      background-color: #555;
-    }
-    
-    .container {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 20px;
-    }
-    
-    /* Add more styles as needed */
-    
-    .form-group {
-      margin-bottom: 20px;
-    }
-    
-    label {
-      display: block;
-      font-weight: bold;
-    }
-    
-    input,
-    textarea {
-      width: 100%;
-      padding: 10px;
-      font-size: 16px;
-    }
-    
-    button {
-      background-color: #333;
-      color: #fff;
-      padding: 10px 20px;
-      font-size: 16px;
-      border: none;
-      cursor: pointer;
-    
-    }
-    
-    button:hover {
-      background-color: #555;
-    }
-
-    /* Anchor links */
-    .anchor {
-      display: block;
-      position: relative;
-      top: -80px;
-      visibility: hidden;
-    }
-
-    /* Responsive design */
-    @media (max-width: 600px) {
-      header {
-        padding: 10px;
-      }
-      
-      .container {
-        padding: 10px;
-      }
-    }
-  </style>
 </head>
 <body>
-  <header>
-    <img src="FullLogo_Transparent.png" alt="Mobile Subscriptions" width="400">
+    <!-- Page Loader -->
+    <div id="loader-wrapper">
+        <div id="loader"></div>
+
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+
+    </div>
+
+    <!-- Site logo -->
+    <h1 class="tm-brand">
+        <img width="400" src="img/FullLogo_Transparent.png" ></img>
+        <span class="tm-brand-text"></span>        
+    </h1>
+
+    <!-- Nav -->
+    <nav class="tm-nav">
+        <button class="navbar-toggler" type="button" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+        <ul id="tm-main-nav">
+            <li class="nav-item">                                
+                <a href="#intro" class="nav-link current">
+                    Start
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#services" class="nav-link">
+                    Tjänster
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#about" class="nav-link">
+                    Om Oss
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#contact" class="nav-link">
+                    Har vi ringt dig?
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+
+    <!-- Content -->
+    <main>
+        <div id="intro" class="tm-section">
+            <!-- Intro left -->
+            <div class="tm-section-col tm-content">
+                <div class="tm-media">
+                    <img src="img\gallery\tn\Snapchat-321299274.jpg" alt="Intro image">
+                    <div class="tm-media-body">
+                        <h2><a href="#" class="tm-text-primary">Direkt Kundkontakt</a></h2>
+                        <p class="tm-mb-20 tm-text-small">
+                            Telemarketing är en direktväg till potentiella kunder. Genom telefonkontakt skapas personliga möjligheter att förmedla företagets budskap, bygga relationer och öka försäljningen. Det är en strategi som skräddarsys efter kundens behov, vilket gör det möjligt att konvertera leads till lojala kunder.
+                        </p>
+                        <span class="tm-text-secondary tm-media-span tm-text-small">
+                            
+                        </span>
+                        <hr class="tm-hr tm-mr">
+                    </div>
+                </div>
     
-  </header>
-  
-  <div class="container">
-    <h2 class="anchor" id="home">Welcome to T3 Sales!</h2>
-    
-    <p><b>Har vi ringt dig?</b><br> <br>Vår samarbetspartner har gett oss uppdraget att nå både nya och befintliga kunder för marknadsföring och försäljning. Vi ringer dig för att presentera en tjänst eller produkt vi tror du skulle ha intresse av.
-      <br><br> <b>Är du en befintlig kund?</b><br><br> Då kan du nå oss via vårt support nr: <b>0103302860</b>  Eller via mail på: <b>ordersupport@t3sale.com</b> </p>
-    
-      <p>
-       <b>Är du registrerad i NIX?</b>
-       <br>
-       <br>
-Vi ringer normalt sett inte hushåll som är registrerade i NIX.<br> 
-Om du ändå blivit uppringd av oss, beror det på att du är kund, <br>
-eller nyligen har varit kund hos någon av våra uppdragsgivare. <br>
-För mer information om NIX och vilka regler som gäller klicka nedan.<br>
-<br>
-<a href="https://nixtelefon.org/sa-nixar-du/" class="button"> <button>NIX Registret</button> </a>
+                <div class="tm-media">
+                    <img src="img/gallery/tn/img-12.jpg" alt="Intro image">
+                    <div class="tm-media-body">
+                        <h2><a href="#" class="tm-text-primary">Vår Nygrundade Satsning</a></h2>
+                        <p class="tm-mb-20 tm-text-small">
+                            Som ett nygrundat företag omfamnar vi en ambitiös vision och strävar energiskt mot att etablera oss som en framstående närvaro inom vår bransch. Trots vår nyligen påbörjade resa är vår inriktning tydlig: att driva innovativa lösningar och leverera högkvalitativa resultat, vilket står i hjärtat av vår affärsstrategi och tillväxtplaner.</p>
+                        <span class="tm-text-secondary tm-media-span tm-text-small">
+                            
+                    </span>
+                        <hr class="tm-hr tm-mr">
+                    </div>
+                </div>
+                
+                
+                <div class="tm-text-right">
+                    <a href="#services" class="tm-btn tm-btn-next">Tjänster</a>
+                </div>   
+                
+            </div>
+            
+            <!-- Intro right -->
+            <div class="tm-section-col tm-parallax" data-parallax="scroll" data-image-src="img/vertex-bg-01.jpg"></div>
+        </div> <!-- #intro -->
 
-      </p>
-   
-  </div>
+        <div id="services" class="tm-section">
+            <!-- Services left -->
+            <div class="tm-section-col tm-content">
+                <h2 class="tm-text-primary">Våra tjänster</h2>
+                <p>Upptäck vårt sortiment av anpassade telekomtjänster för både privatpersoner och företag. Från avancerade mobilabonnemang till skräddarsydda företagspaket och snabbt bredband – vi håller dig ansluten och uppkopplad. Prioritera pålitlig kommunikation med våra högpresterande tjänster för en sömlös telekomupplevelse.
+                </p>
+                <form id="contact-form" class="tm-contact-form tm-mb-200">
+                    <div class="form-group">
+                        <input type="text" id="name" class="form-control rounded-0" placeholder="Namn" required />
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" class="form-control rounded-0" placeholder="Email" required />
+                    </div>
+                    <div class="form-group">
+                        <textarea rows="6" id="message" class="form-control rounded-0" placeholder="Medelande" required></textarea>
+                    </div>
+                
+                    <div class="form-group tm-text-right">
+                        <button type="button" onclick="sendEmail()" class="tm-btn">Skicka</button>
+                    </div>
+                </form>
+                           
+                <hr style="margin: -200;" class="tm-hr tm-ml tm-sm-mt-30">
+                <div style="margin-top: 80px;" class="tm-text-right">
+                    <a href="#about" class="tm-btn tm-btn-next">Om Oss</a>
+                </div> 
+                <div class="tm-row">
+                    <div class="tm-col">
+                        
+                        <div class="tm-text-center tm-my-50">
+                            
+                        </div>                        
+                     
+                    </div>
+                    <div class="tm-col">
+                        <div class="tm-text-center tm-my-50">
+                            
+                        </div>                        
+                        
+                    </div>
+                </div>    
+                      
+            </div>
+            
+            <!-- Services right -->
+            <div class="tm-section-col tm-parallax" data-parallax="scroll" data-image-src="img/vertex-bg-02.jpg"></div>
+        </div> <!-- #services -->
 
-  <script>
-    // JavaScript code can be added here for interactivity
-    const contactForm = document.getElementById('contactForm');
+       
 
-    contactForm.addEventListener('submit', function(event) {
-      event.preventDefault();
+        <div id="about" class="tm-section">
+            <!-- About left -->
+            <div class="tm-section-col tm-content tm-content-small">
+                <h2 class="tm-text-primary">Om Oss</h2>
+                <p>
+                    Välkommen till T3 Sale, en ledande pionjär inom telekommunikationsbranschen sedan vår grundande år 2023. Vi är dedikerade till att erbjuda högkvalitativa telekomprodukter och skräddarsydda lösningar till både privatpersoner och företag runt om i Sverige.
+                </p>
+                <p>
+                    Genom att kombinera innovativ teknik med en kundcentrerad strategi strävar vi efter att förse våra kunder med pålitlig anslutning, sömlös kommunikation och banbrytande tjänster.
+                </p>              
+                <p class="tm-mb-50">
+                    Hos oss hittar du allt från avancerade mobillösningar till anpassade företagspaket som möter de unika behoven hos varje kund. Med fokus på att skapa en starkare och mer ansluten framtid för våra användare är vi stolta över att vara en del av den ständigt föränderliga telekomvärlden.
+                </p>
 
-      // Retrieve the form data
-      const name = document.getElementById('name').value;
-      const email = document.getElementById('email').value;
-      const message = document.getElementById('message').value;
+                <hr class="tm-hr tm-ml tm-sm-mt-30">
+                <div style="margin-top: 80px;" class="tm-text-right">
+                    <a href="#contact" class="tm-btn tm-btn-next">Har vi ringt dig?</a>
+                </div> 
+                            
+            </div>
+            
+            <!-- About right -->
+            <div class="tm-section-col tm-parallax" data-parallax="scroll" data-image-src="img/vertex-bg-03.jpg"></div>
+        </div> <!-- #about -->
 
-      // Perform any desired form validation here
+        <div id="contact" class="tm-section">
+            <!-- Contact left -->
+            <div class="tm-section-col tm-content tm-content-small">
+                <h2 class="tm-text-primary">Har vi ringt dig?</h2>
+                <p>
+                    Vår samarbetspartner har gett oss uppdraget att nå
+                    både nya och befintliga kunder för marknadsföring och försäljning.
+                    Vi ringer dig för att presentera en tjänst eller produkt vi tror du
+                    skulle ha intresse av.<p> <p>Är du en befintlig kund?</p> <p>Då kan du nå oss via
+                        vårt support nr: 0103302860</p> <p>Eller via mail på:
+                            ordersupport@t3sale.com</p>
+                
+                </p>
 
-      // Send the form data to your server or perform any desired action
-      // For demonstration purposes, we will simply log the form data
-      console.log('Name:', name);
-      console.log('Email:', email);
-      console.log('Message:', message);
+                <hr class="tm-hr tm-ml tm-sm-mt-30">
+                <div style="margin-top: 80px;" class="tm-text-right">
+                    <a href="#intro" class="tm-btn tm-btn-next">Start</a>
+                </div> 
+                <footer class="tm-copyright tm-text-small">
+                   <a> <i class="fa-brands fa-instagram" style="color: #5b5b5b; font-size: 50px; margin-left: 50px;"></i></a>
+                   <a> <i class="fa-brands fa-linkedin-in" style="color: #5b5b5b; font-size: 50px; margin-left: 50px;"></i></a>
+                   
+                </footer>              
+            </div>
+            
+            <!-- Contact right -->
+            <div class="tm-section-col tm-parallax tm-relative" data-parallax="scroll" data-image-src="img/vertex-bg-04.jpg">
+                <!-- Map -->
+                <div class="mapouter">
+                    <div class="gmap-canvas">
+                        <iframe width="100%" height="420" id="gmap_canvas"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2036.1862604902506!2d18.106094477509917!3d59.31314667460642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f780f60662149%3A0xfedac24e135f863f!2sH%C3%A4stholmsv%C3%A4gen%2025%2C%20131%2071%20Nacka!5e0!3m2!1ssv!2sse!4v1700907962121!5m2!1ssv!2sse"
+                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- #contact -->
+    </main>
 
-      // Optionally, you can display a success message to the user
-      alert('Your message has been sent!');
+    <script src="js/plugins.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script>
+    emailjs.init("xKmf1czNJWi6_-cfX"); // Ersätt YOUR_USER_ID med ditt användar-ID från EmailJS
 
-      // Reset the form
-      contactForm.reset();
-    });
-  </script>
+    function sendEmail() {
+        const name = document.getElementById("name").value;
+        const email = document.getElementById("email").value;
+        const message = document.getElementById("message").value;
+
+        emailjs.send("service_k0gzd0t", "template_lrv03x9", {
+            from_name: name,
+            reply_to: email,
+            message: message,
+        })
+        .then(function(response) {
+            console.log("E-post skickad!", response);
+            alert("Tack för ditt meddelande!");
+        }, function(error) {
+            console.error("Ett fel uppstod vid sändning av e-post", error);
+            alert("Ett fel uppstod. Försök igen senare.");
+        });
+    }
+</script>
+    <script src="https://kit.fontawesome.com/80f2146301.js" crossorigin="anonymous"></script>
+    <script>
+        $(window).on("load", function() {
+            $('body').addClass('loaded');
+        });
+
+        $(function(){
+            
+            /*************** Navigation *****************/
+
+            const tmMainNav = $("#tm-main-nav");
+
+            tmMainNav.singlePageNav({
+                filter: ':not(.external)'
+            });
+
+            $('.navbar-toggler').click(function(e) {
+                e.stopPropagation();
+                tmMainNav.toggleClass('show');
+            });
+
+            $("html").click(function(e) {
+                $("#tm-main-nav").removeClass("show");
+            });
+
+            /****************** Smooth Scrolling *****************/
+
+            $(".tm-btn-next").on('click', function(event) {
+                if (this.hash !== "") {
+                    event.preventDefault();
+                    var hash = this.hash;
+
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function(){
+                        // window.location.hash = hash;
+                    });
+                }
+            });
+
+            $('.tm-brand-icon').on('click', function(event) {
+                $('html, body').animate({
+                        scrollTop: $('#intro').offset().top
+                    }, 800);
+            });
+
+            /****************** Gallery ******************/
+
+            const galleryItems = document.querySelector(".tm-gallery").children;
+            const itemsPerPage = 10;
+            const totalPages = Math.ceil(galleryItems.length / itemsPerPage);
+            const pageAttribute = 'data-page';
+
+            function setPagination(currentPage) {
+                for(let i = 1; i <= totalPages; i++) {
+                    var $pager = '';
+                    
+                    if(currentPage == i) {
+                        $pager = $('<a href="javascript:void(0);" class="active tm-paging-link" '+pageAttribute+'="'+i+'"></a>');
+                    } else {
+                        $pager = $('<a href="javascript:void(0);" class="tm-paging-link" '+pageAttribute+'="'+i+'"></a>');
+                    }
+
+                    $pager.html(i);
+
+                    $pager.click(function(){ 
+                        $('.tm-paging-link').removeClass("active");
+                        $(this).addClass('active');
+                        var page = $(this).eq(0).attr(pageAttribute);
+                        showItems(page);
+                    });
+
+                    $pager.appendTo($('.tm-paging'));
+                }
+            }
+
+            function showItems(currentPage) {
+                for(let i = 0; i < galleryItems.length; i++) {
+                    galleryItems[i].classList.remove("show");
+                    galleryItems[i].classList.add("hide");
+
+                    if(i >= (currentPage * itemsPerPage) - itemsPerPage && i < currentPage * itemsPerPage) {
+                        galleryItems[i].classList.remove("hide");
+                        galleryItems[i].classList.add("show");
+                    }
+                }
+            }
+
+            setPagination(1);
+            showItems(1);
+
+            /****************** Magnific Popup ***********/
+
+            $('.tm-gallery').magnificPopup({
+                delegate: 'a',
+                type: 'image',
+                gallery: {
+                    enabled: true
+                }
+            });
+        });
+    </script>
 </body>
 </html>
